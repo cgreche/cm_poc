@@ -1,10 +1,10 @@
-package cm_poc;
+package cm.core;
 
-import java.util.Map;
+import cm.data_structure.CMMap;
 
 public interface Command {
 	String identifier();
 	String description();
 	int flags();
-	Map<String, String> params();
+	CMMap params();
 }

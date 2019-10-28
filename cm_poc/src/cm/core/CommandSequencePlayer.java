@@ -1,6 +1,6 @@
-package cm_poc;
+package cm.core;
 
-import data.CMList;
+import cm.data_structure.CMList;
 
 public interface CommandSequencePlayer {
 	CMList commands();

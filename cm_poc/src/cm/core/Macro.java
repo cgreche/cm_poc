@@ -1,10 +1,9 @@
-package cm_poc;
+package cm.core;
 
 public interface Macro {
 	String id();
 	String description();
+	int activationKey();
 	int flags();
-	//other properties
-	
 	MacroExecutor executor();
 }
