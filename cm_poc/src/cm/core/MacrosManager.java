@@ -1,7 +1,4 @@
-package cm;
-
-import cm.core.CommandSequencePlayer;
-import cm.core.Macro;
+package cm.core;
 
 public interface MacrosManager {	
 	void setMacros(final Macro[] macros);

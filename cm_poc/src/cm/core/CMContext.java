@@ -1,4 +1,4 @@
-package cm;
+package cm.core;
 
 public interface CMContext {
 	String basePath();

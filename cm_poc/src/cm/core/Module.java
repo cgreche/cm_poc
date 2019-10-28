@@ -1,4 +1,4 @@
-package cm;
+package cm.core;
 
 import cm.data_structure.CMMap;
 
